@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #b9ccdf;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+
+}
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contract{
+    float: right;
+    padding: 20px;
+}
+
+.header-contract a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 30px auto;
+    border-bottom: none;
+}
+
+/*-----------------
+personal section start
+-----------------*/
+
+#persion-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*-----------------
+education section start
+-----------------*/
+.edu-template-left{
+    float: left;
+    width: 45%;
+}
+.edu-template-right{
+    float: right;
+    width: 45%;
+}
+/*-----------------
+footer section start
+-----------------*/
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
